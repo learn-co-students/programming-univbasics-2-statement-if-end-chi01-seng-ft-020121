@@ -100,7 +100,7 @@ code, we are guaranteed that the code in ONE of the two blocs will run (as the
 Boolean expression can only ever be one of two choices).
 
 ```ruby
-chance_of_rain = 0.2
+chance_of_rain = 0.0000001
 puts "Let's go outside!"
 if chance_of_rain > 0.5
   puts "Pack an umbrella!"
